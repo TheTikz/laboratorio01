@@ -61,8 +61,8 @@ public class Cuenta {
     }
     
     public boolean ingreso (double importe){  
-     if(importe > importe ){
-        saldo += 0;
+     if(importe > 0 ){
+        saldo += importe;
         return true;
      }
      else{
